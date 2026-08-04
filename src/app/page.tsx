@@ -39,7 +39,7 @@ export default function Home() {
       </div>
       <div className="container v2-product-stage">
         <div className="v2-product-glow" aria-hidden="true" />
-        <Image className="v2-screen-board" src="/images/ownkeep-screens.png" width={1800} height={1125} alt="OwnKeep product screens showing documents, reminders, people, timeline, search, and settings" />
+        <Image className="v2-screen-board" src="/images/ownkeep-screens.jpg" width={1800} height={1125} alt="OwnKeep product screens showing documents, reminders, people, timeline, search, and settings" />
         <div className="v2-product-actions">
           <div className="v2-product-pills"><span>Private by design</span><span>Offline-first</span><span>Cross-platform</span></div>
           <Link className="button light" href="/products/ownkeep">Discover OwnKeep</Link>
@@ -53,7 +53,7 @@ export default function Home() {
         <blockquote>Technology should disappear.<br /><span>What remains is the help it gives.</span></blockquote>
         <p className="v2-belief-copy">We start with what people are trying to do, then use design, engineering, and intelligence to make that experience feel simpler—not more technical.</p>
         <div style={{ marginTop: '3rem', textAlign: 'center' }}>
-          <Image src="/images/alviteq.png" width={800} height={400} alt="ALVITEQ Vision" style={{ width: '100%', height: 'auto', borderRadius: '1rem' }} />
+          <Image src="/images/alviteq.jpg" width={800} height={400} alt="ALVITEQ Vision" style={{ width: '100%', height: 'auto', borderRadius: '1rem' }} />
         </div>
       </div>
     </section>
@@ -65,7 +65,7 @@ export default function Home() {
         <div className="v2-facts">{trustFacts.map(([value,label])=><div key={value}><strong>{value}</strong><span>{label}</span></div>)}</div>
         <div style={{ marginTop: '4rem', textAlign: 'center' }}>
           <p className="eyebrow" style={{ marginBottom: '1.5rem' }}>Ecosystem & Partners</p>
-          <Image src="/images/alviteq_logos.png" width={1000} height={200} alt="ALVITEQ Ecosystem Logos" style={{ width: '100%', maxWidth: '800px', height: 'auto', margin: '0 auto' }} />
+          <Image src="/images/alviteq_logos.jpg" width={1000} height={200} alt="ALVITEQ Ecosystem Logos" style={{ width: '100%', maxWidth: '800px', height: 'auto', margin: '0 auto' }} />
         </div>
       </div>
     </section>
