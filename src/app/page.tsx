@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import VaultToy from "@/components/VaultToy";
 
 const trustFacts = [
   ["Independent", "Technology company"],
@@ -82,6 +83,9 @@ export default function Home() {
     </section>
 
     <section className="v2-final">
+      <div className="container" style={{ textAlign: 'center' }}>
+        <VaultToy />
+      </div>
       <div className="container v2-final-inner">
         <Image src="/brand/official/alviteq-icon-white.svg" width={512} height={512} alt="" />
         <div><p className="eyebrow">Technology you can trust</p><h2>Building for everyday life.<br />And everything after.</h2><Link className="button light" href="/about">Meet ALVITEQ</Link></div>
