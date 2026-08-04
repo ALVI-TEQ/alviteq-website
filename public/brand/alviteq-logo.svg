@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 112" role="img" aria-labelledby="title">
+  <title id="title">Alviteq</title>
+  <defs>
+    <mask id="gap">
+      <rect width="128" height="104" fill="#fff"/>
+      <path d="M8 92 43 17l35 75" fill="none" stroke="#000" stroke-width="24" stroke-linecap="square" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g transform="translate(4 4)">
+    <path d="M54 17 86 92l34-75" fill="none" stroke="#00B6A6" stroke-width="17" stroke-linecap="square" stroke-linejoin="round" mask="url(#gap)"/>
+    <path d="M8 92 43 17l35 75" fill="none" stroke="#0D6EFD" stroke-width="17" stroke-linecap="square" stroke-linejoin="round"/>
+  </g>
+  <text x="155" y="76" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="5">
+    <tspan fill="#0D6EFD">AL</tspan><tspan fill="#00B6A6">VI</tspan><tspan fill="#0B132B">TEQ</tspan>
+  </text>
+</svg>
