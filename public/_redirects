@@ -1,4 +1,3 @@
-https://www.alviteq.com/* https://alviteq.com/:splat 301
 /ownkeep /products/ownkeep 301
 /ownkeep/* /products/ownkeep/:splat 301
 /privacy-policy /privacy 301
