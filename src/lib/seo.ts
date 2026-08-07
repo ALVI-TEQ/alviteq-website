@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 
 const siteUrl = "https://alviteq.com";
 const socialImage = {
-  url: `${siteUrl}/brand/alviteq-social-card-final.png`,
+  url: `${siteUrl}/og.png`,
   width: 1200,
   height: 630,
-  alt: "ALVITEQ — Technology you can trust",
+  alt: "ALVITEQ — Technology people can trust. Innovation built to last.",
 };
 
 export function pageMetadata({
