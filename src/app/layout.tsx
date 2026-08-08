@@ -117,6 +117,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 <h3>Products</h3>
                 <Link href="/products">All products</Link>
                 <Link href="/products/ownkeep">OwnKeep</Link>
+                <Link href="/products/ownkeep/privacy">OwnKeep privacy</Link>
+                <Link href="/products/ownkeep/terms">OwnKeep terms</Link>
                 <Link href="/technology">Technology</Link>
               </div>
               <div className="footer-links">

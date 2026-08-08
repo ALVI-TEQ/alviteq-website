@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import OwnKeepScreens from "@/components/OwnKeepScreens";
 const pillars = [
   ["01", "Technology", "Capable engineering shaped around real human and business needs."],
   ["02", "Future", "Long-term thinking, maintainable systems, and products designed to grow responsibly."],
@@ -39,7 +40,7 @@ export default function Home() {
       </div>
       <div className="container v2-product-stage">
         <div className="v2-product-glow" aria-hidden="true" />
-        <Image className="v2-screen-board" src="/images/ownkeep-screens.jpg" width={1800} height={1125} alt="OwnKeep product screens showing documents, reminders, people, timeline, search, and settings" />
+        <OwnKeepScreens compact />
         <div className="v2-product-actions">
           <div className="v2-product-pills"><span>Private by design</span><span>Offline-first</span><span>Cross-platform</span></div>
           <Link className="button light" href="/products/ownkeep">Discover OwnKeep</Link>

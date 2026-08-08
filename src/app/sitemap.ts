@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
-  const routes = ["", "/about", "/products", "/products/ownkeep", "/technology", "/careers", "/contact", "/privacy", "/terms", "/security"];
+  const routes = ["", "/about", "/products", "/products/ownkeep", "/products/ownkeep/privacy", "/products/ownkeep/terms", "/technology", "/careers", "/contact", "/privacy", "/terms", "/security"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date("2026-07-30");
+  const lastModified = new Date("2026-08-08");
   return routes.map((route) => ({
     url: `https://alviteq.com${route || "/"}`,
     lastModified,
