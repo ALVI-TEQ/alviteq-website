@@ -1,4 +1,4 @@
-ALVITEQ Corporate Identity — Approved 03D Production Assets
+ALVITEQ Corporate Identity — Approved 03E Production Assets
 
 Official colours
 Blue: #0D47FF
@@ -25,7 +25,5 @@ Files
 - favicon.ico — 16/32/48 px
 - alviteq-horizontal-1500.png — transparent horizontal lockup
 
-Note
-The icon has been reconstructed as clean vector geometry from the approved 03D visual direction.
-Before trademark filing or large-format manufacturing, a professional vector designer should do a final
-Bezier/optical review and convert the wordmark typography to outlines.
+Source
+ALVITEQ_Corporate_Identity_v1.0_Official_Master_Assets, revision 03E.

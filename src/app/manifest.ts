@@ -14,6 +14,12 @@ export default function manifest(): MetadataRoute.Manifest {
     icons: [
       { src: "/brand/alviteq-symbol-192.png", sizes: "192x192", type: "image/png" },
       { src: "/brand/alviteq-symbol-512.png", sizes: "512x512", type: "image/png" },
+      {
+        src: "/brand/pwa-maskable-512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "maskable",
+      },
     ],
   };
 }
