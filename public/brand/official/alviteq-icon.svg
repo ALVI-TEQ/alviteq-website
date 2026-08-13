@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <path fill="#0D47FF" d="M70 410 L220 112 Q230 92 248 92 Q266 92 276 112 L365 289 L325 369 L248 216 L126 458 Q116 478 94 478 L68 478 Q47 478 58 456 Z"/>
-  <path fill="#00B2A9" d="M322 458 L401 301 Q411 281 433 281 L459 281 Q480 281 469 303 L390 460 Q380 480 358 480 L332 480 Q311 480 322 458 Z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">ALVITEQ full-colour icon</title>
+  <path d="M 51 204 C 38 204 27 193 34 180 L 113 46 C 121 32 143 32 152 46 L 188 105 C 190 109 190 112 188 116 L 172 142 C 168 149 158 149 154 142 L 132 99 L 68 195 C 64 201 59 204 51 204 Z" fill="#0D47FF"/>
+  <path d="M 172 187 L 213 130" fill="none" stroke="#00B2A9" stroke-width="34" stroke-linecap="round"/>
 </svg>

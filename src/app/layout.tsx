@@ -14,7 +14,7 @@ export const metadata: Metadata = {
       { url: "/brand/alviteq-symbol-32.png", sizes: "32x32", type: "image/png" },
       { url: "/brand/alviteq-symbol-48.png", sizes: "48x48", type: "image/png" },
     ],
-    apple: "/brand/alviteq-symbol-192.png",
+    apple: "/brand/apple-touch-icon.png",
   },
   openGraph: {
     title: "ALVITEQ | Technology Built for Everyday Life",
