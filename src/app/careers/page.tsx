@@ -1,7 +1,7 @@
 import { PageHero } from "@/components/page-elements";
 import { pageMetadata } from "@/lib/seo";
 
-export const metadata = pageMetadata({ title: "Careers", description: "Follow future opportunities to build meaningful technology and useful products at Alviteq.", path: "/careers" });
+export const metadata = pageMetadata({ title: "Careers", description: "Follow future opportunities to build meaningful technology and useful products at ALVITEQ.", path: "/careers" });
 
 export default function CareersPage() {
   return <><PageHero eyebrow="Careers" title="Build meaningful technology with us." intro="ALVITEQ is at the beginning of its journey. As we grow, we will look for people who care about thoughtful engineering, useful products, and solving real problems." />

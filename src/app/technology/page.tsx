@@ -14,6 +14,14 @@ export default function TechnologyPage() {
       ["R","Performance & reliability","Design maintainable systems, observable behavior, graceful failure, and dependable long-term operation."]
     ]} /></section>
     <section className="section tint"><div className="split container"><div><p className="eyebrow">Engineering philosophy</p><h2>Strong foundations. Flexible execution.</h2><p className="lead">A good technical decision accounts for the user, the problem, the operating environment, security, cost, maintenance, and how the product may evolve.</p></div><div className="stat-panel"><div className="stats"><div className="stat"><strong>Purpose</strong><span>before novelty</span></div><div className="stat"><strong>Clarity</strong><span>before complexity</span></div><div className="stat"><strong>Evidence</strong><span>before assumptions</span></div><div className="stat"><strong>Durability</strong><span>before trends</span></div></div></div></div></section>
+    <section className="section container"><div className="section-head"><p className="eyebrow">Technology in context</p><h2>Capabilities connected to real products.</h2><p className="lead">The same engineering principle can serve different needs depending on the people, data, and operating environment involved.</p></div><div className="comparison-table" role="region" aria-label="Product technology comparison" tabIndex={0}><table><thead><tr><th>Capability</th><th>OwnKeep</th><th>ALVITEQ HMS</th></tr></thead><tbody>{[
+      ["Local-first engineering","Offline personal vault","Resilient workflows where appropriate"],
+      ["Security","Encrypted personal information","Controlled healthcare access and auditing"],
+      ["Cross-platform","Mobile and desktop","Web and operational interfaces"],
+      ["Cloud infrastructure","Optional connected capabilities","Coordinated hospital services"],
+      ["Reliability","Long-term personal records","Operational continuity"],
+      ["Intelligence","Local assistance and extraction","Decision-supporting workflows where validated"],
+    ].map(row => <tr key={row[0]}>{row.map((cell,index) => index === 0 ? <th scope="row" key={cell}>{cell}</th> : <td key={cell}>{cell}</td>)}</tr>)}</tbody></table></div></section>
     <section className="section container"><Cta title="Discuss technology with ALVITEQ" body="For engineering, integration, security, or product questions, contact our team." /></section>
   </>;
 }

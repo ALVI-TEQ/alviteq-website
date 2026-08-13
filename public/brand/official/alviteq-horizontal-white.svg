@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="400" viewBox="0 0 1500 400" role="img" aria-labelledby="title">
+  <title id="title">ALVITEQ horizontal white logo</title>
+  <g transform="translate(24 62) scale(1.08)"><g id="icon">
+  <path d="M 51 204 C 38 204 27 193 34 180 L 113 46 C 121 32 143 32 152 46 L 188 105 C 190 109 190 112 188 116 L 172 142 C 168 149 158 149 154 142 L 132 99 L 68 195 C 64 201 59 204 51 204 Z" fill="#FFFFFF"/>
+  <path d="M 172 187 L 213 130" fill="none" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round"/></g></g>
+  <g transform="translate(360 80)">
+  <g aria-label="ALVITEQ">
+    <path d="M 20 200 L 76 44 C 80 33 96 33 100 44 L 156 200 H 120 L 109 166 H 67 L 56 200 Z M 72 138 H 104 L 88 90 Z" fill="#FFFFFF" fill-rule="evenodd"/>
+    <path d="M 180 40 H 216 V 168 H 288 V 200 H 180 Z" fill="#FFFFFF"/>
+    <path d="M 318 40 H 356 L 393 154 L 430 40 H 468 L 410 200 H 376 Z" fill="#FFFFFF"/>
+    <path d="M 494 40 H 530 V 200 H 494 Z" fill="#FFFFFF"/>
+    <path d="M 560 40 H 700 V 74 H 648 V 200 H 612 V 74 H 560 Z" fill="#FFFFFF"/>
+    <path d="M 730 40 H 864 V 74 H 766 V 102 H 852 V 134 H 766 V 166 H 868 V 200 H 730 Z" fill="#FFFFFF"/>
+    <path d="M 976 34 C 924 34 890 69 890 120 C 890 171 924 206 976 206 C 1028 206 1062 171 1062 120 C 1062 69 1028 34 976 34 Z M 976 68 C 1005 68 1026 88 1026 120 C 1026 152 1005 172 976 172 C 947 172 926 152 926 120 C 926 88 947 68 976 68 Z" fill="#FFFFFF" fill-rule="evenodd"/>
+    <path d="M 1008 158 L 1063 210" fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round"/>
+  </g></g>
+</svg>
