@@ -19,7 +19,7 @@ export default function Home() {
   return <>
     <section className="v2-hero">
       <div className="container v2-hero-inner">
-        <div className="hero-brand reveal"><Image src="/brand/alviteq-symbol-512.png" width={512} height={512} alt="" priority /><span>Technology · Future · Innovation</span></div>
+        <p className="hero-brand reveal">Technology · Future · Innovation</p>
         <p className="v2-kicker reveal">Independent technology company</p>
         <h1 className="reveal delay-1">Intelligent products.<br />Secure foundations.<br /><span>Technology built to last.</span></h1>
         <div className="v2-hero-bottom reveal delay-2">

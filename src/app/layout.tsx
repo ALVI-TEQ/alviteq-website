@@ -71,13 +71,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <Link className="brand" href="/" aria-label="ALVITEQ home">
               <Image
                 className="brand-logo"
-                src="/brand/alviteq-symbol-192.png"
-                alt=""
-                width={192}
-                height={192}
+                src="/brand/official/alviteq-horizontal.svg"
+                alt="ALVITEQ"
+                width={1500}
+                height={400}
                 priority
               />
-              <span>ALVITEQ</span>
             </Link>
             <div className="nav-links">
               {nav.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
@@ -99,12 +98,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <div>
                 <Image
                   className="footer-logo"
-                  src="/brand/alviteq-symbol-192.png"
-                  alt=""
-                  width={192}
-                  height={192}
+                  src="/brand/alviteq-logo-dark.svg"
+                  alt="ALVITEQ"
+                  width={1500}
+                  height={400}
                 />
-                <strong className="footer-brand">ALVITEQ</strong>
                 <p>Technology people can trust. Innovation built to last.</p>
               </div>
               <div className="footer-links">
@@ -128,7 +126,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 <Link href="/security">Security</Link>
               </div>
             </div>
-            <div className="copyright">© {new Date().getFullYear()} Alviteq. All rights reserved.</div>
+            <div className="copyright">© {new Date().getFullYear()} ALVITEQ. All rights reserved.</div>
           </div>
         </footer>
       </body>
