@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 export default function ProductsNav() {
   const detailsRef = useRef<HTMLDetailsElement>(null);
@@ -10,6 +10,14 @@ export default function ProductsNav() {
   function closeMenu() {
     if (detailsRef.current) detailsRef.current.open = false;
   }
+
+  useEffect(() => {
+    const outside = (event: PointerEvent) => {
+      if (detailsRef.current?.open && !detailsRef.current.contains(event.target as Node)) closeMenu();
+    };
+    document.addEventListener("pointerdown", outside);
+    return () => document.removeEventListener("pointerdown", outside);
+  }, []);
 
   return <details
     className="products-nav"

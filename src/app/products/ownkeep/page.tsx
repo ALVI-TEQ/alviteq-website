@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Cta, FeatureGrid, PageHero } from "@/components/page-elements";
+import { FeatureGrid, PageHero } from "@/components/page-elements";
 import OwnKeepScreens from "@/components/OwnKeepScreens";
 import { pageMetadata } from "@/lib/seo";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata = pageMetadata({ title: "OwnKeep | Private Digital Vault by ALVITEQ", description: "OwnKeep is an encrypted, offline-capable vault for documents, records, reminders, passwords, and important life information.", path: "/products/ownkeep" });
 
@@ -45,6 +46,6 @@ export default function OwnKeepPage() {
     <section className="section container"><div className="section-head"><p className="eyebrow">Why OwnKeep</p><h2>Personal information without mandatory cloud dependence.</h2></div><div className="why-grid">{["Offline-first workflows","No mandatory cloud account","Encrypted local vault","Mobile and desktop","Portable encrypted backup","User-controlled recovery"].map(item => <div key={item}><span aria-hidden="true">✓</span><strong>{item}</strong></div>)}</div></section>
     <section className="section container"><div className="split"><Image className="feature-image" src="/images/ownkeep-icon.webp" width={600} height={600} alt="OwnKeep blue shield and lock icon" /><div><p className="eyebrow">Platforms</p><h2>One vault across mobile and desktop.</h2><p className="lead">OwnKeep is engineered for Android, iOS, macOS, Windows, and Linux. Hardware capabilities vary, while the encrypted data model and core document journey remain consistent.</p><ul className="check-list"><li>Biometric convenience where supported</li><li>Camera and scanner workflows on supported devices</li><li>Desktop-friendly navigation and keyboard submission</li><li>Encrypted portable backup and recovery</li></ul></div></div></section>
     <section className="section container"><div className="section-head"><p className="eyebrow">OwnKeep legal</p><h2>Clear terms for a private, local vault.</h2><p className="lead">Review how OwnKeep handles information on your device and the responsibilities that come with protecting recovery material and backups.</p><p><Link className="inline-link" href="/products/ownkeep/privacy">OwnKeep Privacy Policy</Link> · <Link className="inline-link" href="/products/ownkeep/terms">OwnKeep Terms &amp; Conditions</Link></p></div></section>
-    <section className="section container"><Cta title="Want to use or follow OwnKeep?" body="Contact ALVITEQ for access information, product updates, testing opportunities, or partnership discussions." label="Ask about OwnKeep" href="/contact?product=ownkeep" /></section>
+    <section className="section container"><div className="section-head"><p className="eyebrow">Ask about OwnKeep</p><h2>Access, testing, support, or partnerships.</h2><p className="lead">Use the same protected ALVITEQ enquiry service with OwnKeep already selected.</p></div><ContactForm defaultTopic="ownkeep" defaultProduct="ownkeep" /></section>
   </>;
 }

@@ -1,4 +1,5 @@
 import { PageHero } from "@/components/page-elements";
+import ContactForm from "@/components/ContactForm";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({ title: "Contact ALVITEQ", description: "Contact ALVITEQ about the company, products, support, privacy, security, partnerships, or careers.", path: "/contact" });
@@ -13,6 +14,6 @@ const contacts = [
 
 export default function ContactPage() {
   return <><PageHero eyebrow="Contact" title="Start a useful conversation." intro="Choose the closest topic and include enough context for the right response." />
-    <section className="section container"><div className="contact-grid">{contacts.map(([title,body,email], index)=><article className="contact-card" key={`${title}-${index}`}><h2>{title}</h2><p>{body}</p><a href={`mailto:${email}?subject=${encodeURIComponent(title + " enquiry")}`}>{email} →</a></article>)}</div><div className="response-note"><strong>Protect sensitive information</strong><p>Do not send passwords, recovery passphrases, identity documents, patient information, clinical records, or other sensitive product data. ALVITEQ will never ask for an OwnKeep recovery passphrase.</p></div><div className="form-roadmap"><p className="eyebrow">Secure contact form</p><h2>Form-based enquiries are planned.</h2><p>A protected form with abuse prevention and confirmation references will be introduced when its server-side handling and retention controls are ready. Email remains the current verified contact route.</p></div></section>
+    <section className="section container"><div className="section-head"><p className="eyebrow">Secure enquiry form</p><h2>Tell us what you would like to discuss.</h2><p className="lead">Submissions are verified, rate-limited, and retained only as needed to respond.</p></div><ContactForm /><div className="contact-grid contact-routes">{contacts.map(([title,body,email], index)=><article className="contact-card" key={`${title}-${index}`}><h2>{title}</h2><p>{body}</p><a href={`mailto:${email}?subject=${encodeURIComponent(title + " enquiry")}`}>{email} →</a></article>)}</div></section>
   </>;
 }

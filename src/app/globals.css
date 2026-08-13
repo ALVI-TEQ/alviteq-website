@@ -302,6 +302,30 @@ h3 { font-size: 1.25rem; }
 .technology-bridge { border-bottom: 1px solid var(--line); }
 .form-roadmap { max-width: 800px; margin-top: 50px; padding: 32px; border: 1px solid #b7c5d8; border-radius: 22px; background: var(--surface); }
 .form-roadmap p:last-child { margin-bottom: 0; color: var(--muted); }
+.contact-form-wrap { max-width: 900px; }
+.sensitive-warning { display: grid; gap: 5px; margin-bottom: 24px; padding: 18px 20px; border-left: 4px solid var(--blue); color: var(--ink); background: var(--surface); }
+.sensitive-warning span { color: var(--muted); }
+.contact-form { padding: clamp(24px, 5vw, 46px); border: 1px solid #b7c5d8; border-radius: 28px; background: white; }
+.form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.form-grid label { display: grid; gap: 7px; color: var(--ink); font-weight: 750; }
+.form-grid label small { color: var(--muted); font-weight: 500; }
+.form-wide { grid-column: 1 / -1; }
+.contact-form input, .contact-form select, .contact-form textarea { width: 100%; min-height: 48px; padding: 11px 13px; border: 2px solid #8a9bb1; border-radius: 10px; color: var(--ink); background: white; }
+.contact-form textarea { resize: vertical; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { border-color: var(--blue); }
+.privacy-check { display: flex; align-items: flex-start; gap: 11px; margin: 24px 0 16px; }
+.privacy-check input { width: 20px; min-height: 20px; margin-top: 2px; }
+.privacy-check a { color: var(--blue); text-decoration: underline; }
+.field-error { color: #a11818; font-size: .85rem; font-weight: 650; }
+.turnstile-slot { min-height: 70px; margin: 18px 0; }
+.turnstile-slot iframe { max-width: 100%; }
+.form-configuration-note { margin: 18px 0; padding: 14px; color: #734d00; background: #fff4d7; border-radius: 10px; }
+.contact-form button:disabled { cursor: not-allowed; opacity: .55; }
+.form-status { min-height: 30px; margin-top: 15px; }
+.form-status p { margin: 0; }
+.form-status code { font-weight: 800; }
+.honeypot { width: 1px; height: 1px; overflow: hidden; position: absolute; left: -10000px; }
+.contact-routes { margin-top: 70px; }
 .capability-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
 .capability-groups article { padding: 30px; border: 1px solid var(--line); border-radius: 22px; background: white; }
 .capability-groups article:last-child { grid-column: 1 / -1; }
@@ -342,6 +366,8 @@ h3 { font-size: 1.25rem; }
   .portfolio-heading, .portfolio-grid, .capability-groups, .trust-directory { grid-template-columns: 1fr; }
   .capability-groups article:last-child { grid-column: auto; }
   .why-grid { grid-template-columns: repeat(2, 1fr); }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-wide { grid-column: auto; }
   .principle-grid { grid-template-columns: repeat(2, 1fr); }
   .product-showcase, .contact-grid { grid-template-columns: 1fr; }
   .product-showcase > div { padding: 38px; }

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProductsNav from "@/components/ProductsNav";
 import MobileNav from "@/components/MobileNav";
+import CloudflareAnalytics from "@/components/CloudflareAnalytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -24,13 +25,13 @@ export const metadata: Metadata = {
     url: "https://alviteq.com",
     siteName: "ALVITEQ",
     type: "website",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "ALVITEQ — Technology people can trust. Innovation built to last." }],
+    images: [{ url: "/og/alviteq-corporate.png", width: 1200, height: 630, alt: "ALVITEQ — Secure software for life and healthcare." }],
   },
   twitter: {
     card: "summary_large_image",
     title: "ALVITEQ | Secure Software for Life and Healthcare",
     description: "Secure, thoughtful software for personal information management and modern hospital operations.",
-    images: ["/og.png"],
+    images: ["/og/alviteq-corporate.png"],
   },
 };
 
@@ -49,7 +50,7 @@ const websiteSchema = {
   "@type": "WebSite",
   name: "ALVITEQ",
   url: "https://alviteq.com/",
-  description: "Technology built for everyday life.",
+  description: "Secure software for everyday life and modern healthcare.",
   publisher: { "@type": "Organization", name: "ALVITEQ" },
 };
 
@@ -64,6 +65,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body>
+        <CloudflareAnalytics />
         <a className="skip-link" href="#main-content">Skip to main content</a>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
@@ -87,7 +89,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <MobileNav />
           </nav>
         </header>
-        <main id="main-content">{children}</main>
+        <main id="main-content" tabIndex={-1}>{children}</main>
         <footer className="footer">
           <div className="container">
             <div className="footer-grid">

@@ -1,0 +1,15 @@
+pages_build_output_dir = "out"
+compatibility_date = "2026-08-13"
+
+[[d1_databases]]
+binding = "CONTACT_DB"
+database_name = "alviteq-contact"
+database_id = "REPLACE_WITH_CLOUDFLARE_D1_DATABASE_ID"
+
+[vars]
+TURNSTILE_HOSTNAME = "alviteq.com"
+CONTACT_ALLOWED_ORIGIN = "https://alviteq.com"
+
+# Configure TURNSTILE_SECRET_KEY and RATE_LIMIT_SALT as encrypted secrets.
+# Configure NEXT_PUBLIC_TURNSTILE_SITE_KEY and
+# NEXT_PUBLIC_CF_WEB_ANALYTICS_TOKEN as Pages build variables.

@@ -1,0 +1,5 @@
+Contact: mailto:security@alviteq.com
+Canonical: https://alviteq.com/.well-known/security.txt
+Policy: https://alviteq.com/security/#responsible-disclosure
+Preferred-Languages: en
+Expires: 2027-08-01T00:00:00.000Z
