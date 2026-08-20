@@ -1,9 +1,9 @@
-ALVITEQ Corporate Identity — Approved 03E Production Assets
+ALVITEQ Refined Brand Assets — Final v2
 
 Official colours
-Blue: #0D47FF
-Teal: #00B2A9
+Teal: #16B39A
 Navy: #0B1D3A
+Orange: #D9793A
 Reversed: #FFFFFF
 
 Master-artwork rules
@@ -26,4 +26,4 @@ Files
 - alviteq-horizontal-1500.png — transparent horizontal lockup
 
 Source
-ALVITEQ_Corporate_Identity_v1.0_Official_Master_Assets, revision 03E.
+alviteq_refined_brand_assets — Final v2 approved reference pack.

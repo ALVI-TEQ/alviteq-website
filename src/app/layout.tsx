@@ -14,10 +14,9 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   icons: {
     icon: [
-      { url: "/brand/official/alviteq-icon-32.png", sizes: "32x32", type: "image/png" },
-      { url: "/brand/official/alviteq-icon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
     ],
-    apple: "/brand/official/alviteq-icon-192.png",
+    apple: "/brand/apple-touch-icon.png",
   },
   openGraph: {
     title: "ALVITEQ | Secure Software for Life and Healthcare",
@@ -76,8 +75,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 className="brand-logo"
                 src="/brand/official/alviteq-horizontal.svg"
                 alt="ALVITEQ"
-                width={1500}
-                height={400}
+                width={1230}
+                height={207}
                 priority
               />
             </Link>
@@ -98,8 +97,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                   className="footer-logo"
                   src="/brand/official/alviteq-horizontal-white.svg"
                   alt="ALVITEQ"
-                  width={1500}
-                  height={400}
+                  width={1230}
+                  height={207}
                 />
                 <p>Technology people can trust. Innovation built to last.</p>
               </div>
